@@ -16,7 +16,7 @@ public class Preparation {
                 public class day%d_1 {
                     public static void main(String[] args) throws IOException {
                         String input = Files.readString(Paths.get("src/day%d/input.txt"));
-                        String[] lines = input.split("\\r\\n");
+                        String[] lines = input.split("\\r?\\n");
                         
                         
                     }
