@@ -7,7 +7,7 @@ import java.util.*;
 
 public class day5_2 {
     public static void main(String[] args) throws IOException {
-        String input = String.join("\n", Files.readAllLines(Paths.get("src/day5/input.txt")).toArray(new String[0]));
+        String input = String.join("\n", Files.readAllLines(Paths.get("src/input/input05.txt")).toArray(new String[0]));
 
         String[] sections = input.split("\n\n");
 

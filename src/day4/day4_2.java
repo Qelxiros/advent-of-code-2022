@@ -6,7 +6,7 @@ import java.nio.file.Paths;
 
 public class day4_2 {
     public static void main(String[] args) throws IOException {
-        String[] lines = Files.readAllLines(Paths.get("src/day4/input.txt")).toArray(new String[0]);
+        String[] lines = Files.readAllLines(Paths.get("src/input/input04.txt")).toArray(new String[0]);
 //        String[] lines = new String[]{"2-4,6-8"};
         int total = 0;
         for (String pair : lines) {

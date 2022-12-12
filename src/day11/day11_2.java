@@ -8,7 +8,7 @@ import java.util.Collections;
 
 public class day11_2 {
     public static void main(String[] args) throws IOException {
-        String input = Files.readString(Paths.get("src/day11/input.txt"));
+        String input = Files.readString(Paths.get("src/input/input11.txt"));
 //        String input = Files.readString(Paths.get("src/day11/test.txt"));
         String[] monkeyStrings = input.split("\r?\n\r?\n");
 

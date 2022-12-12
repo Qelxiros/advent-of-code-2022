@@ -6,7 +6,7 @@ import java.nio.file.Paths;
 
 public class day8_2 {
     public static void main(String[] args) throws IOException {
-        String input = Files.readString(Paths.get("src/day8/input.txt"));
+        String input = Files.readString(Paths.get("src/input/input08.txt"));
 
         String[] lines = input.split("\r\n");
 

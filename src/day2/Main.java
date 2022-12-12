@@ -6,7 +6,7 @@ import java.nio.file.Paths;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        String lines = new String(Files.readAllBytes(Paths.get("src/day2/input.txt")));
+        String lines = new String(Files.readAllBytes(Paths.get("src/input/input02.txt")));
 //        String lines = "A Y\n" + "B X\n" + "A Z";
         String[] games = lines.split("\n");
         int total = 0;

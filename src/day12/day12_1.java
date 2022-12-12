@@ -7,7 +7,7 @@ import java.util.*;
 
 public class day12_1 {
     public static void main(String[] args) throws IOException {
-        String input = Files.readString(Paths.get("src/day12/input.txt"));
+        String input = Files.readString(Paths.get("src/input/input12.txt"));
 //        String input = Files.readString(Paths.get("src/day12/test.txt"));
         String[] lines = input.split("\r?\n");
 

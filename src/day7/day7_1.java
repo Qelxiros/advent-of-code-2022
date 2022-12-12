@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 public class day7_1 {
     public static void main(String[] args) throws IOException {
-        String input = Files.readString(Paths.get("src/day7/input.txt"));
+        String input = Files.readString(Paths.get("src/input/input07.txt"));
         String[] lines = input.split("\r\n");
 
         Node curr_dir = new Directory(new ArrayList<>(), "/", null);

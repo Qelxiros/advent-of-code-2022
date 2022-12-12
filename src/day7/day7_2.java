@@ -8,7 +8,7 @@ import java.util.Collections;
 
 public class day7_2 {
     public static void main(String[] args) throws IOException {
-        String input = Files.readString(Paths.get("src/day7/input.txt"));
+        String input = Files.readString(Paths.get("src/input/input07.txt"));
         String[] lines = input.split("\r\n");
 
         Node2 curr_dir = new Directory2(new ArrayList<>(), "/", null);

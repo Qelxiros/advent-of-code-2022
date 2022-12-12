@@ -8,7 +8,7 @@ import java.util.Collections;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        String lines = new String(Files.readAllBytes(Paths.get("input/input01.txt")));
+        String lines = new String(Files.readAllBytes(Paths.get("src/input/input01.txt")));
         String[] elves = lines.split(String.format("%n%n"));
         ArrayList<Integer> elfTotals = new ArrayList<>();
         for (String elf : elves) {

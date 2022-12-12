@@ -10,7 +10,7 @@ public class day9_1 {
     private static final HashSet<ArrayList<Integer>> visited = new HashSet<>();
 
     public static void main(String[] args) throws IOException {
-        String input = Files.readString(Paths.get("src/day9/input.txt"));
+        String input = Files.readString(Paths.get("src/input/input09.txt"));
         String[] lines = input.split("\r\n");
 
         ArrayList<Integer> head = new ArrayList<>();

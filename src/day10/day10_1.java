@@ -6,7 +6,7 @@ import java.nio.file.Paths;
 
 public class day10_1 {
     public static void main(String[] args) throws IOException {
-        String input = Files.readString(Paths.get("src/day10/input.txt"));
+        String input = Files.readString(Paths.get("src/input/input10.txt"));
         String[] lines = input.split("\r?\n");
 
         // 20th, 60th, 100th, 140th, 180th, and 220th cycles
