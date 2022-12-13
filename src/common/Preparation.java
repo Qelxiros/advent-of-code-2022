@@ -38,7 +38,8 @@ public class Preparation {
         out = new BufferedWriter(new FileWriter(String.format("src/day%s/day%s_2.java", dayString, dayString)));
         out.write(FILE_INIT.replace("_1", "_2"));
         out.close();
-        System.out.println(new File(String.format("src/input/input%s.txt", day)).createNewFile());
+        System.out.println(new File(String.format("src/day%s/test.txt", dayString)).createNewFile());
+        System.out.println(new File(String.format("src/input/input%s.txt", dayString)).createNewFile());
     }
 
     public static void main(String[] args) throws IOException {

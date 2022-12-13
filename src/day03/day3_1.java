@@ -1,20 +1,20 @@
-package day3;
+package day03;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-public class day3_2 {
+public class day3_1 {
     public static void main(String[] args) throws IOException {
-        int total = 0;
         String[] lines = Files.readAllLines(Paths.get("src/input/input03.txt")).toArray(new String[0]);
-        for (int i = 0; i < lines.length / 3; i++) {
-            String bag1 = lines[i*3];
-            String bag2 = lines[i*3+1];
-            String bag3 = lines[i*3+2];
+//        String[] lines = new String[]{"jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL"};
+        int total = 0;
+        for (String line : lines) {
+            String half1 = line.substring(0, line.length()/2);
+            String half2 = line.substring(line.length()/2);
 
-            for (char c : bag1.toCharArray()) {
-                if (bag2.contains(c+"") && bag3.contains(c+"")) {
+            for (char c : half1.toCharArray()) {
+                if (half2.contains(c+"")) {
                     total += checkVal(c);
                     break;
                 }
