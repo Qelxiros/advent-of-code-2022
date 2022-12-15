@@ -22,6 +22,7 @@ public class Preparation {
                 public class day%s_1 {
                     public static void main(String[] args) throws IOException {
                         String input = Files.readString(Paths.get("src/input/input%s.txt"));
+                //        String input = Files.readString(Paths.get("src/day14/test.txt"));
                         String[] lines = input.split("\\r?\\n");
                         
                         
@@ -30,7 +31,7 @@ public class Preparation {
                                 
                 """, dayString, dayString, dayString);
 
-        new File(String.format("src/day%s", dayString)).mkdirs();
+        System.out.println(new File(String.format("src/day%s", dayString)).mkdirs());
 
         BufferedWriter out = new BufferedWriter(new FileWriter(String.format("src/day%s/day%s_1.java", dayString, dayString)));
         out.write(FILE_INIT);
