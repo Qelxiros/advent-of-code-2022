@@ -22,14 +22,14 @@ public class Preparation {
                 public class day%s_1 {
                     public static void main(String[] args) throws IOException {
                         String input = Files.readString(Paths.get("src/input/input%s.txt"));
-                //        String input = Files.readString(Paths.get("src/day14/test.txt"));
+                //        String input = Files.readString(Paths.get("src/day%s/test.txt"));
                         String[] lines = input.split("\\r?\\n");
                         
                         
                     }
                 }
                                 
-                """, dayString, dayString, dayString);
+                """, dayString, dayString, dayString, dayString);
 
         System.out.println(new File(String.format("src/day%s", dayString)).mkdirs());
 
